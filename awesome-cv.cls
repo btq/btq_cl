@@ -694,7 +694,7 @@
 \newcommand*{\makeletterclosing}{
   \vspace{2.4mm}
   \lettertextstyle{\@letterclosing} \\\\
-  \letternamestyle{\@firstname \@lastname}
+  \letternamestyle{\@firstname \ \@lastname}
   \ifthenelse{\isundefined{\@letterenclosure}}
     {\\}
     {
